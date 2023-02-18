@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Source+Code+Pro:ital,wght@1,600&family=Work+Sans:wght@200;400&display=swap" rel="stylesheet">
+<script
+src="https://kit.fontawesome.com/98caceaa9d.js"
+crossorigin="anonymous"
+
+></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+
+  <body>
+      <img src="C:\Users\Fernanda\Downloads\a025db6304cdc1ae74e17e7be05e40f4.png" alt="Weatherapp logo" class="logo" width="48">
+      <div class="container">
+        <div class="row">
+          <div class="col"> WeatherApp </div>
+          <div class="col">Forecast</div>
+          <div class="col">Rain</div>
+          <div class="col">Clouds</div>
+          <div class="col">Temperature</div>
+          <div class="col">World</div>
+        </div>
+      </div>
+      <hr />
+     <form id="search-form"> 
+       <input type="text"
+        placeholder="🔎Search for a city..." 
+        autofocus="on"
+        id="search-text">
+      <input type="submit"
+      value="Search"/>
+    </form>
+    <button id ="xd">
+      Current Location
+    </button>
+
+      <br />
+      
+      <i class="fa-sharp fa-solid fa-sun"></i>
+      <div class="grades">
+        <span class="temperature" id="temperature">29</span>
+        <span class="units">
+          <a href="#" id="celsius-link">°C</a>
+          <a href="#" id="farenheit-link">°F</a>
+        </span>
+        </div>
+<li id="date"></li> 
+<h2>
+  Talca
+</h2>
+<p>
+  30°/13° thermal sensation
+</p>
+<h4>
+  Tomorrow temperature cooler than today
+</h4>
+<ul>
+   <li> Thursday        30° 11° </li>
+   <li>Friday           31° 12° <br /> </li>
+   <li>Saturday         31° 12° <br />  </li>
+   <li>Sunday           32° 13° <br />  </li>
+   <li>Monday           34° 13° <br />  </li>
+   <br />
+<div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"> Uv Index: Very high
+ 
+      </li>
+      <li class="list-group-item">Humidity: 30%
+</li>
+      <li class="list-group-item">Wind: 19km/h
+        </li>
+    </ul>
+  </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
